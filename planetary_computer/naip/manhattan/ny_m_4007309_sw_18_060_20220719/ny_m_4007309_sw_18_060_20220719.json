@@ -1,0 +1,165 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "ny_m_4007309_sw_18_060_20220719",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.935162,
+          40.747616
+        ],
+        [
+          -73.934097,
+          40.814304
+        ],
+        [
+          -74.002312,
+          40.814915
+        ],
+        [
+          -74.003309,
+          40.748225
+        ],
+        [
+          -73.935162,
+          40.747616
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.003309,
+    40.747616,
+    -73.934097,
+    40.814915
+  ],
+  "properties": {
+    "gsd": 0.6,
+    "datetime": "2022-07-19T16:00:00Z",
+    "naip:year": "2022",
+    "proj:bbox": [
+      584142.0,
+      4511286.0,
+      589896.0,
+      4518690.0
+    ],
+    "providers": [
+      {
+        "url": "https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/",
+        "name": "USDA Farm Service Agency",
+        "roles": [
+          "producer",
+          "licensor"
+        ]
+      }
+    ],
+    "naip:state": "ny",
+    "proj:shape": [
+      12340,
+      9590
+    ],
+    "proj:centroid": {
+      "lat": 40.78127,
+      "lon": -73.96872
+    },
+    "proj:transform": [
+      0.6,
+      0.0,
+      584142.0,
+      0.0,
+      -0.6,
+      4518690.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:26918"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/naip",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "preview",
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/map?collection=naip&item=ny_m_4007309_sw_18_060_20220719",
+      "type": "text/html",
+      "title": "Map of item"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/ny/2022/ny_060cm_2022/40073/m_4007309_sw_18_060_20220719.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "RGBIR COG tile",
+      "eo:bands": [
+        {
+          "name": "Red",
+          "common_name": "red"
+        },
+        {
+          "name": "Green",
+          "common_name": "green"
+        },
+        {
+          "name": "Blue",
+          "common_name": "blue"
+        },
+        {
+          "name": "NIR",
+          "common_name": "nir",
+          "description": "near-infrared"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/ny/2022/ny_060cm_2022/40073/m_4007309_sw_18_060_20220719.200.jpg",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "tilejson": {
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=naip&item=ny_m_4007309_sw_18_060_20220719&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "type": "application/json",
+      "title": "TileJSON with default rendering",
+      "roles": [
+        "tiles"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=naip&item=ny_m_4007309_sw_18_060_20220719&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "collection": "naip"
+}
