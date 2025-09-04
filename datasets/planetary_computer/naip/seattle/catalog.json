@@ -1,0 +1,146 @@
+{
+  "type": "Catalog",
+  "id": "naip",
+  "stac_version": "1.1.0",
+  "description": "NAIP: National Agriculture Imagery Program",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "collection",
+      "href": "./naip/collection.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712213_se_10_060_20231007_20240209/wa_m_4712213_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712213_sw_10_060_20231007_20240209/wa_m_4712213_sw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712214_se_10_060_20231007_20240209/wa_m_4712214_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712214_sw_10_060_20231007_20240209/wa_m_4712214_sw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712215_se_10_060_20231007_20240209/wa_m_4712215_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712215_sw_10_060_20231007_20240209/wa_m_4712215_sw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712221_ne_10_060_20231007_20240209/wa_m_4712221_ne_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712221_nw_10_060_20231007_20240209/wa_m_4712221_nw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712221_se_10_060_20231007_20240209/wa_m_4712221_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712221_sw_10_060_20231007_20240209/wa_m_4712221_sw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712222_ne_10_060_20231007_20240209/wa_m_4712222_ne_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712222_nw_10_060_20231007_20240209/wa_m_4712222_nw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712222_se_10_060_20231007_20240209/wa_m_4712222_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712222_sw_10_060_20231007_20240209/wa_m_4712222_sw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712223_ne_10_060_20231007_20240209/wa_m_4712223_ne_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712223_nw_10_060_20231007_20240209/wa_m_4712223_nw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712223_se_10_060_20231007_20240209/wa_m_4712223_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712223_sw_10_060_20231007_20240209/wa_m_4712223_sw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712229_ne_10_060_20231007_20240209/wa_m_4712229_ne_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712229_nw_10_060_20231007_20240209/wa_m_4712229_nw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712229_se_10_060_20231007_20240209/wa_m_4712229_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712229_sw_10_060_20231007_20240209/wa_m_4712229_sw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712230_ne_10_060_20231007_20240209/wa_m_4712230_ne_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712230_nw_10_060_20231007_20240209/wa_m_4712230_nw_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wa_m_4712230_se_10_060_20231007_20240209/wa_m_4712230_se_10_060_20231007_20240209.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "title": "NAIP: National Agriculture Imagery Program"
+}
