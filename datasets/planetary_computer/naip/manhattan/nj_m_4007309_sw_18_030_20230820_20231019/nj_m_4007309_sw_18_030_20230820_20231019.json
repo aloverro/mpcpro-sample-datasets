@@ -1,0 +1,165 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "nj_m_4007309_sw_18_030_20230820_20231019",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.937188,
+          40.749189
+        ],
+        [
+          -73.936174,
+          40.812737
+        ],
+        [
+          -74.000316,
+          40.813311
+        ],
+        [
+          -74.001268,
+          40.749761
+        ],
+        [
+          -73.937188,
+          40.749189
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.001268,
+    40.749189,
+    -73.936174,
+    40.813311
+  ],
+  "properties": {
+    "gsd": 0.3,
+    "datetime": "2023-08-20T16:00:00Z",
+    "naip:year": "2023",
+    "proj:bbox": [
+      584312.400000036,
+      4511458.50000001,
+      589722.900000036,
+      4518513.900000011
+    ],
+    "providers": [
+      {
+        "url": "https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/",
+        "name": "USDA Farm Service Agency",
+        "roles": [
+          "producer",
+          "licensor"
+        ]
+      }
+    ],
+    "naip:state": "nj",
+    "proj:shape": [
+      23518,
+      18035
+    ],
+    "proj:centroid": {
+      "lat": 40.78125,
+      "lon": -73.96874
+    },
+    "proj:transform": [
+      0.3,
+      0.0,
+      584312.400000036,
+      0.0,
+      -0.3,
+      4518513.900000011,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:26918"
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/naip",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "preview",
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/map?collection=naip&item=nj_m_4007309_sw_18_030_20230820_20231019",
+      "type": "text/html",
+      "title": "Map of item"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/nj/2023/nj_030cm_2023/40073/m_4007309_sw_18_030_20230820_20231019.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "RGBIR COG tile",
+      "eo:bands": [
+        {
+          "name": "Red",
+          "common_name": "red"
+        },
+        {
+          "name": "Green",
+          "common_name": "green"
+        },
+        {
+          "name": "Blue",
+          "common_name": "blue"
+        },
+        {
+          "name": "NIR",
+          "common_name": "nir",
+          "description": "near-infrared"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/nj/2023/nj_030cm_2023/40073/m_4007309_sw_18_030_20230820_20231019.200.jpg",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "tilejson": {
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=naip&item=nj_m_4007309_sw_18_030_20230820_20231019&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "type": "application/json",
+      "title": "TileJSON with default rendering",
+      "roles": [
+        "tiles"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=naip&item=nj_m_4007309_sw_18_030_20230820_20231019&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "collection": "naip"
+}
