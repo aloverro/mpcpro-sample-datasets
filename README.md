@@ -1,4 +1,4 @@
-s# MPC Pro Datasets
+# MPC Pro Sample Datasets
 A collection of sample geospatial datasets curated for quick evaluation and testing of the MPC Pro Bulk Ingestion API (and UI). 
 
 ## Organization
@@ -8,9 +8,12 @@ The `datasets/` folder contains structured sample subsets grouped first by the o
 datasets/
 ├── {source}/
 │   ├── {collection}
+|   |   |── config/
+            ├──collection.json
+            ├──mosaic_config.json
+            ├──tile_settings_config.json
+            ├──render_config.json
 │   │   ├── {dataset}/
-            ├──{collection-folder}/
-                ├──colleciton.json
             ├──{stac-item-folder-1}/
             ├──{stac-item-folder-2}/
             ├──catalog.json
@@ -19,10 +22,12 @@ Where:
 * `{source}` – Origin/source grouping (e.g. `planetary_computer`).
 * `{collection}` – STAC collection identifier (e.g. `naip`).
 * `{dataset}` – Individual sample subset (e.g. `manhattan`).
-* `{collection-folder}` – Houses the `collection.json` describing the collection (shared across the sample subsets).
 * `{stac-item-folder}` – One or more STAC Item directories with item JSON + assets.
-* `collection.json` – Collection metadata (used when creating the collection in MPC Pro if not already present).
 * `catalog.json` – Root catalog for that subset linking to its items.
+* `collection.json` – A baseline MPC Pro [STAC collection specification](https://learn.microsoft.com/azure/planetary-computer/create-collection-web-interface).
+* `mosaic_config.json` - A baseline collection [mosaic configuration](https://learn.microsoft.com/azure/planetary-computer/mosaic-configurations-for-collections)
+* `tile_settings_config.json` - A baseline collection [tile settings configuration](https://learn.microsoft.com/azure/planetary-computer/tile-settings)
+* `render_config.json` - A baseline collection [render configuration](https://learn.microsoft.com/en-us/azure/planetary-computer/render-configuration)
 
 ## Usage
 You can ingest these datasets into MPC Pro via the Bulk Ingestion API or the [Bulk Ingestion UI](https://learn.microsoft.com/azure/planetary-computer/ingest-via-web-interface).
@@ -32,28 +37,14 @@ High‑level ingestion steps:
 2. Start a Bulk Ingestion run pointing at the raw GitHub URL of a dataset's `catalog.json`.
 3. (Optional) Apply mosaic definitions, render options, and tile settings for richer visualization.
 
-### NAIP Configuration Links
-The NAIP sample collection ships with configuration JSON files under `datasets/planetary_computer/naip/config/`:
-
-| Purpose | File | Raw URL |
-|---------|------|---------|
-| Collection definition | `naip_collection.json` | https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-naip-datasets/datasets/planetary_computer/naip/config/naip_collection.json |
-| Mosaic & render options | `naip_mosaic_configuration.json` | https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-naip-datasets/datasets/planetary_computer/naip/config/naip_mosaic_configuration.json |
-| Tile settings | `naip_tile_settings.json` | https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-naip-datasets/datasets/planetary_computer/naip/config/naip_tile_settings.json |
-
-Example ingestion (CLI outline):
-1. Create collection with `naip_collection.json` (if not already created).
-2. POST an ingestion referencing one dataset catalog, e.g. `.../naip/los_angeles/catalog.json`.
-3. After completion, POST mosaic config (`naip_mosaic_configuration.json`) and tile settings (`naip_tile_settings.json`) to the appropriate MPC Pro endpoints (API specifics may vary by deployment/version).
-
-Automation: See `src/ingest_all_naip_samples.py` for a script that can batch‑create ingestions for every NAIP sample subset and validate item/mosaic tiles.
-
 ## Datasets
 
-### Source: planetary_computer
+### Planetary Computer
+Each of these collections and datasets originate from [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/).
 
-#### Collection: NAIP (National Agriculture Imagery Program)
-Configuration: [Collection JSON](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-naip-datasets/datasets/planetary_computer/naip/config/naip_collection.json) · [Mosaic & Render Options](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-naip-datasets/datasets/planetary_computer/naip/config/naip_mosaic_configuration.json) · [Tile Settings](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-naip-datasets/datasets/planetary_computer/naip/config/naip_tile_settings.json)
+#### NAIP (National Agriculture Imagery Program)
+
+**Collection Configuration**: [Collection JSON](/datasets/planetary_computer/naip/config/naip_collection.json) · [Mosaic Config](/datasets/planetary_computer/naip/config/naip_mosaic_configuration.json) · [Tile Settings Config]() · [Render Config](/datasets/planetary_computer/naip/config/render_config.json)
 
 | Dataset | Title | # Items | Key Assets | Catalog |
 |---------|-------|---------|------------|---------|
