@@ -1,8 +1,0 @@
-{
-  "minZoom": 4,
-  "maxZoom": 24,
-  "defaultZoom": 12,
-  "buffer": 0,
-  "resampling": "bilinear",
-  "default_render_option_id": "natural_color"
-}
