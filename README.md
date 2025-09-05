@@ -44,7 +44,7 @@ Each of these collections and datasets originate from [Microsoft Planetary Compu
 
 #### NAIP (National Agriculture Imagery Program)
 
-**Collection Configuration**: [Collection JSON](/datasets/planetary_computer/naip/config/naip_collection.json) · [Mosaic Config](/datasets/planetary_computer/naip/config/naip_mosaic_configuration.json) · [Tile Settings Config]() · [Render Config](/datasets/planetary_computer/naip/config/render_config.json)
+**Collection Configuration**: [Collection JSON](/datasets/planetary_computer/naip/config/collection.json) · [Mosaic Config](/datasets/planetary_computer/naip/config/mosaic_config.json) · [Tile Settings Config](/datasets/planetary_computer/naip/config/tile_settings_config.json) · [Render Config](/datasets/planetary_computer/naip/config/render_config.json)
 
 | Dataset | Title | # Items | Key Assets | Catalog |
 |---------|-------|---------|------------|---------|
