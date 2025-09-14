@@ -4,7 +4,7 @@
     "name": "Natural color",
     "description": "RGB from visual assets",
     "type": "raster-tile",
-    "options": "assets=image&asset_bidx=image|1,2,3",
+    "options": "assets=visual&asset_bidx=image|1,2,3",
     "minZoom": 8
   }
 ]
