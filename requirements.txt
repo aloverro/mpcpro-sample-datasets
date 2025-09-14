@@ -1,0 +1,2 @@
+# Requirements for generating sample NAIP dataset catalogs
+requests>=2.31.0

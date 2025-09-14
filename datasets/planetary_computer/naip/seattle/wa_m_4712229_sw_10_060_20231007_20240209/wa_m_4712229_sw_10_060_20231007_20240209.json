@@ -1,0 +1,158 @@
+{
+  "id": "wa_m_4712229_sw_10_060_20231007_20240209",
+  "bbox": [
+    -122.503319,
+    47.49789,
+    -122.434176,
+    47.564609
+  ],
+  "type": "Feature",
+  "links": [
+    {
+      "rel": "collection",
+      "type": "application/json",
+      "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/naip"
+    },
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "parent",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/wa/2023/wa_060cm_2023/47122/m_4712229_sw_10_060_20231007_20240209.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "RGBIR COG tile",
+      "eo:bands": [
+        {
+          "name": "Red",
+          "common_name": "red"
+        },
+        {
+          "name": "Green",
+          "common_name": "green"
+        },
+        {
+          "name": "Blue",
+          "common_name": "blue"
+        },
+        {
+          "name": "NIR",
+          "common_name": "nir",
+          "description": "near-infrared"
+        }
+      ]
+    },
+    "thumbnail": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/wa/2023/wa_060cm_2023/47122/m_4712229_sw_10_060_20231007_20240209.200.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Thumbnail"
+    },
+    "tilejson": {
+      "title": "TileJSON with default rendering",
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=naip&item=wa_m_4712229_sw_10_060_20231007_20240209&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "type": "application/json",
+      "roles": [
+        "tiles"
+      ]
+    },
+    "rendered_preview": {
+      "title": "Rendered preview",
+      "rel": "preview",
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=naip&item=wa_m_4712229_sw_10_060_20231007_20240209&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "roles": [
+        "overview"
+      ],
+      "type": "image/png"
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.43489,
+          47.49789
+        ],
+        [
+          -122.434176,
+          47.564292
+        ],
+        [
+          -122.502691,
+          47.564609
+        ],
+        [
+          -122.503319,
+          47.498207
+        ],
+        [
+          -122.43489,
+          47.49789
+        ]
+      ]
+    ]
+  },
+  "collection": "naip",
+  "properties": {
+    "gsd": 0.6,
+    "datetime": "2023-10-07T16:00:00Z",
+    "naip:year": "2023",
+    "proj:bbox": [
+      537408.0,
+      5260650.0,
+      542562.0,
+      5268030.0
+    ],
+    "proj:epsg": 26910,
+    "providers": [
+      {
+        "url": "https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/",
+        "name": "USDA Farm Service Agency",
+        "roles": [
+          "producer",
+          "licensor"
+        ]
+      }
+    ],
+    "naip:state": "wa",
+    "proj:shape": [
+      12300,
+      8590
+    ],
+    "proj:centroid": {
+      "lat": 47.53126,
+      "lon": -122.46877
+    },
+    "proj:transform": [
+      0.6,
+      0.0,
+      537408.0,
+      0.0,
+      -0.6,
+      5268030.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0"
+}

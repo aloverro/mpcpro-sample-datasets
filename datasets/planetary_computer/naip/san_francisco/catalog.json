@@ -1,0 +1,111 @@
+{
+  "type": "Catalog",
+  "id": "naip",
+  "stac_version": "1.1.0",
+  "description": "NAIP: National Agriculture Imagery Program",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "collection",
+      "href": "./naip/collection.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712212_ne_10_060_20220519/ca_m_3712212_ne_10_060_20220519.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712212_se_10_060_20220519/ca_m_3712212_se_10_060_20220519.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712213_ne_10_060_20220518/ca_m_3712213_ne_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712213_nw_10_060_20220518/ca_m_3712213_nw_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712213_se_10_060_20220518/ca_m_3712213_se_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712213_sw_10_060_20220518/ca_m_3712213_sw_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712214_ne_10_060_20220518/ca_m_3712214_ne_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712214_nw_10_060_20220518/ca_m_3712214_nw_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712214_se_10_060_20220518/ca_m_3712214_se_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712214_sw_10_060_20220518/ca_m_3712214_sw_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712220_ne_10_060_20220519/ca_m_3712220_ne_10_060_20220519.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712221_ne_10_060_20220518/ca_m_3712221_ne_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712221_nw_10_060_20220518/ca_m_3712221_nw_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712221_se_10_060_20220518/ca_m_3712221_se_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712221_sw_10_060_20220518/ca_m_3712221_sw_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712222_ne_10_060_20220518/ca_m_3712222_ne_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712222_nw_10_060_20220518/ca_m_3712222_nw_10_060_20220518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ca_m_3712222_sw_10_060_20220518/ca_m_3712222_sw_10_060_20220518.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "title": "NAIP: National Agriculture Imagery Program"
+}

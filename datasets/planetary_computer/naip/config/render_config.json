@@ -1,0 +1,26 @@
+[
+  {
+    "id": "natural-color",
+    "name": "Natural color",
+    "description": "RGB from visual assets",
+    "type": "raster-tile",
+    "options": "assets=image&asset_bidx=image|1,2,3",
+    "minZoom": 6
+  },
+  {
+    "id": "color-infrared",
+    "name": "Color infrared",
+    "description": "Highlights healthy (red) and unhealthy (blue/gray) vegetation.",
+    "type": "raster-tile",
+    "options": "assets=image&asset_bidx=image|4,1,2&color_formula=Sigmoidal RGB 15 0.35",
+    "minZoom": 6
+  },
+  {
+    "id": "normalized-difference-veg-inde",
+    "name": "Normalized Difference Veg. Index (NDVI)",
+    "description": "Normalized Difference Vegetation Index (NIR-Red)/(NIR+Red), darker green indicates healthier vegetation.",
+    "type": "raster-tile",
+    "options": "expression=(image_b4 - image_b1)/(image_b4 + image_b1)&rescale=-1,1&colormap_name=rdylgn",
+    "minZoom": 6
+  }
+]

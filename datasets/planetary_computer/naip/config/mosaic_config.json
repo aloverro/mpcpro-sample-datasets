@@ -1,0 +1,8 @@
+[
+  {
+    "id": "mos1",
+    "name": "Most recent available",
+    "description": "Most recent available imagery in this collection",
+    "cql": []
+  }
+]
