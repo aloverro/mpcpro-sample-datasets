@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "10504100013A2F00-visual-3",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          43.71483490725412,
+          42.71389662042937
+        ],
+        [
+          43.71483490725412,
+          42.7624364477447
+        ],
+        [
+          43.7806844291111,
+          42.7624364477447
+        ],
+        [
+          43.7806844291111,
+          42.71389662042937
+        ],
+        [
+          43.71483490725412,
+          42.71389662042937
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    43.71483490725412,
+    42.71389662042937,
+    43.7806844291111,
+    42.7624364477447
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "platform": "maxar",
+    "gsd": 0.305,
+    "event": "shovi-georgia-landslide-8Aug23",
+    "proj:code": "EPSG:32638",
+    "proj:shape": [
+      17408,
+      17408
+    ],
+    "proj:transform": [
+      0.30517578125,
+      0.0,
+      394843.75,
+      0.0,
+      -0.30517578125,
+      4735156.25,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2011-09-19T00:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "visual": {
+      "href": "https://maxar-opendata.s3.us-west-2.amazonaws.com/events/shovi-georgia-landslide-8Aug23/ard/38/031113103213/2011-09-19/10504100013A2F00-visual.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Visual (RGB)",
+      "eo:bands": [
+        {
+          "name": "red",
+          "common_name": "red",
+          "description": "Red band",
+          "center_wavelength": 0.65
+        },
+        {
+          "name": "green",
+          "common_name": "green",
+          "description": "Green band",
+          "center_wavelength": 0.56
+        },
+        {
+          "name": "blue",
+          "common_name": "blue",
+          "description": "Blue band",
+          "center_wavelength": 0.48
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

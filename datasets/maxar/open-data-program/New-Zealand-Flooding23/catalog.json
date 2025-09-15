@@ -1,0 +1,237 @@
+{
+  "type": "Catalog",
+  "id": "New-Zealand-Flooding23",
+  "stac_version": "1.0.0",
+  "description": "STAC Catalog for Maxar Open Data event 'New-Zealand-Flooding23' containing 37 analysis ready data items.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Maxar Event Catalog: New-Zealand-Flooding23"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-7.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-8.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-9.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-10.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-10"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-11.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-11"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-12.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-12"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-13.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-13"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E23B4300-visual-14.json",
+      "type": "application/geo+json",
+      "title": "10300100E23B4300-visual-14"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-2.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-3.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-7.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-4.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-8.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-5.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-9.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-6.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-10.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-10"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-7.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-11.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-11"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-8.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-9.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100DE4D9300-visual-12.json",
+      "type": "application/geo+json",
+      "title": "10300100DE4D9300-visual-12"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-10.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-10"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001007C86B200-visual-11.json",
+      "type": "application/geo+json",
+      "title": "104001007C86B200-visual-11"
+    }
+  ],
+  "title": "Maxar Event: New-Zealand-Flooding23"
+}

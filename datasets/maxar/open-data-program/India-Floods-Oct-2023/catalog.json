@@ -1,0 +1,321 @@
+{
+  "type": "Catalog",
+  "id": "India-Floods-Oct-2023",
+  "stac_version": "1.0.0",
+  "description": "STAC Catalog for Maxar Open Data event 'India-Floods-Oct-2023' containing 51 analysis ready data items.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Maxar Event Catalog: India-Floods-Oct-2023"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-7.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-8.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE8D0400-visual-9.json",
+      "type": "application/geo+json",
+      "title": "10300100CE8D0400-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CF621C00-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100CF621C00-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE36CE00-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100CE36CE00-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CF621C00-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100CF621C00-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE36CE00-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100CE36CE00-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CF621C00-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100CF621C00-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE36CE00-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100CE36CE00-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CF621C00-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100CF621C00-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE36CE00-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100CE36CE00-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CF621C00-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100CF621C00-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE36CE00-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100CE36CE00-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CF621C00-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100CF621C00-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100CE36CE00-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100CE36CE00-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-2.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-3.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-4.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-5.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-6.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-7.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-8.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-9.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-10.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-10"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-11.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-11"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010073381800-visual-12.json",
+      "type": "application/geo+json",
+      "title": "1040010073381800-visual-12"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-2.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-3.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-4.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-5.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-6.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-7.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-7.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-8.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-8.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010036A0EC00-visual-9.json",
+      "type": "application/geo+json",
+      "title": "1050010036A0EC00-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E34B4D00-visual-9.json",
+      "type": "application/geo+json",
+      "title": "10300100E34B4D00-visual-9"
+    }
+  ],
+  "title": "Maxar Event: India-Floods-Oct-2023"
+}

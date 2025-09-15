@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "1040010073381800-visual-11",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          88.2595416142693,
+          27.11492084449962
+        ],
+        [
+          88.2595416142693,
+          27.163363417331656
+        ],
+        [
+          88.31368852312977,
+          27.163363417331656
+        ],
+        [
+          88.31368852312977,
+          27.11492084449962
+        ],
+        [
+          88.2595416142693,
+          27.11492084449962
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    88.2595416142693,
+    27.11492084449962,
+    88.31368852312977,
+    27.163363417331656
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "platform": "maxar",
+    "gsd": 0.305,
+    "event": "India-Floods-Oct-2023",
+    "proj:code": "EPSG:32645",
+    "proj:shape": [
+      17408,
+      17408
+    ],
+    "proj:transform": [
+      0.30517578125,
+      0.0,
+      624843.75,
+      0.0,
+      -0.30517578125,
+      3005156.25,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2022-03-14T00:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "visual": {
+      "href": "https://maxar-opendata.s3.us-west-2.amazonaws.com/events/India-Floods-Oct-2023/ard/45/120220211223/2022-03-14/1040010073381800-visual.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Visual (RGB)",
+      "eo:bands": [
+        {
+          "name": "red",
+          "common_name": "red",
+          "description": "Red band",
+          "center_wavelength": 0.65
+        },
+        {
+          "name": "green",
+          "common_name": "green",
+          "description": "Green band",
+          "center_wavelength": 0.56
+        },
+        {
+          "name": "blue",
+          "common_name": "blue",
+          "description": "Blue band",
+          "center_wavelength": 0.48
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

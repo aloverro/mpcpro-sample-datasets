@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "10300100E57BC400-visual-8",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.841612130256227,
+          -1.9907796440794707
+        ],
+        [
+          28.841612130256227,
+          -1.9426883108318225
+        ],
+        [
+          28.889410062193914,
+          -1.9426883108318225
+        ],
+        [
+          28.889410062193914,
+          -1.9907796440794707
+        ],
+        [
+          28.841612130256227,
+          -1.9907796440794707
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    28.841612130256227,
+    -1.9907796440794707,
+    28.889410062193914,
+    -1.9426883108318225
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "platform": "maxar",
+    "gsd": 0.305,
+    "event": "Kalehe-DRC-Flooding-5-8-23",
+    "proj:code": "EPSG:32735",
+    "proj:shape": [
+      17408,
+      17408
+    ],
+    "proj:transform": [
+      0.30517578125,
+      0.0,
+      704843.75,
+      0.0,
+      -0.30517578125,
+      9785156.25,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2023-04-10T00:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "visual": {
+      "href": "https://maxar-opendata.s3.us-west-2.amazonaws.com/events/Kalehe-DRC-Flooding-5-8-23/ard/35/300000303023/2023-04-10/10300100E57BC400-visual.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Visual (RGB)",
+      "eo:bands": [
+        {
+          "name": "red",
+          "common_name": "red",
+          "description": "Red band",
+          "center_wavelength": 0.65
+        },
+        {
+          "name": "green",
+          "common_name": "green",
+          "description": "Green band",
+          "center_wavelength": 0.56
+        },
+        {
+          "name": "blue",
+          "common_name": "blue",
+          "description": "Blue band",
+          "center_wavelength": 0.48
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

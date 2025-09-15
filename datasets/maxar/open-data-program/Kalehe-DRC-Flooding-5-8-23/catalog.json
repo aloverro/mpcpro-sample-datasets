@@ -1,0 +1,159 @@
+{
+  "type": "Catalog",
+  "id": "Kalehe-DRC-Flooding-5-8-23",
+  "stac_version": "1.0.0",
+  "description": "STAC Catalog for Maxar Open Data event 'Kalehe-DRC-Flooding-5-8-23' containing 24 analysis ready data items.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Maxar Event Catalog: Kalehe-DRC-Flooding-5-8-23"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-2.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-3.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-4.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-5.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-6.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-7.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-8.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-9.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-10.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-10"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-11.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-11"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-12.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-12"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-13.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-13"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-14.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-14"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-15.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-15"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010084614200-visual-16.json",
+      "type": "application/geo+json",
+      "title": "1040010084614200-visual-16"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual-7.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100E57BC400-visual-8.json",
+      "type": "application/geo+json",
+      "title": "10300100E57BC400-visual-8"
+    }
+  ],
+  "title": "Maxar Event: Kalehe-DRC-Flooding-5-8-23"
+}

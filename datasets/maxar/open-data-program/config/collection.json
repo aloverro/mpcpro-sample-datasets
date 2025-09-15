@@ -1,0 +1,59 @@
+{
+  "id": "maxar-open-data-program",
+  "type": "Collection",
+  "title": "Maxar Open Data Program",
+  "description": "Maxar Open Data imagery. Temporal coverage: 2010-06-01T00:00:00Z to 2024-10-06T23:59:59Z. Events included: BayofBengal-Cyclone-Mocha-May-23, Emilia-Romagna-Italy-flooding-may23, Hurricane-Idalia-Florida-Aug23, India-Floods-Oct-2023, Kahramanmaras-turkey-earthquake-23, Kalehe-DRC-Flooding-5-8-23, Libya-Floods-Sept-2023, Maui-Hawaii-fires-Aug-23, Morocco-Earthquake-Sept-2023, NWT-Canada-Aug-23, Nepal-Earthquake-Nov-2023, Nepal-Floods-Sept-2024, New-Zealand-Flooding23, Nigeria-Floods-Sept-2024, shovi-georgia-landslide-8Aug23",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-06-01T00:00:00Z",
+          "2024-10-06T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "item_assets": {
+    "visual": {
+      "type": "image/tiff; application=geotiff",
+      "title": "Visual (RGB)",
+      "eo:bands": [
+        {
+          "name": "red",
+          "common_name": "red",
+          "description": "Red band",
+          "center_wavelength": 0.65
+        },
+        {
+          "name": "green",
+          "common_name": "green",
+          "description": "Green band",
+          "center_wavelength": 0.56
+        },
+        {
+          "name": "blue",
+          "common_name": "blue",
+          "description": "Blue band",
+          "center_wavelength": 0.48
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "stac_version": "1.0.0",
+  "msft:short_description": "Aggregated Maxar Open Data imagery across 15 events. Temporal coverage: 2010-06-01T00:00:00Z to 2024-10-06T23:59:59Z. Events included: BayofBengal-Cyclone-Mocha-May-23, Emilia-Roma"
+}
