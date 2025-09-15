@@ -1,0 +1,123 @@
+{
+  "type": "Catalog",
+  "id": "Nigeria-Floods-Sept-2024",
+  "stac_version": "1.0.0",
+  "description": "STAC Catalog for Maxar Open Data event 'Nigeria-Floods-Sept-2024' containing 18 analysis ready data items.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Maxar Event Catalog: Nigeria-Floods-Sept-2024"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-2.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-3.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100F6AA7400-visual.json",
+      "type": "application/geo+json",
+      "title": "10300100F6AA7400-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-4.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-5.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100F6AA7400-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10300100F6AA7400-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-6.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-7.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-8.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100F6AA7400-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10300100F6AA7400-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-9.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100F6AA7400-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10300100F6AA7400-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-10.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-10"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100F6AA7400-visual-5.json",
+      "type": "application/geo+json",
+      "title": "10300100F6AA7400-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-11.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-11"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100F6AA7400-visual-6.json",
+      "type": "application/geo+json",
+      "title": "10300100F6AA7400-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001003861BB00-visual-12.json",
+      "type": "application/geo+json",
+      "title": "105001003861BB00-visual-12"
+    }
+  ],
+  "title": "Maxar Event: Nigeria-Floods-Sept-2024"
+}

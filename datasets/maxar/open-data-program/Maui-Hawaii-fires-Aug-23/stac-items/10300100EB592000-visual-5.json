@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "10300100EB592000-visual-5",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -156.55201578871151,
+          20.780271715876502
+        ],
+        [
+          -156.55201578871151,
+          20.828965660960456
+        ],
+        [
+          -156.5002303659063,
+          20.828965660960456
+        ],
+        [
+          -156.5002303659063,
+          20.780271715876502
+        ],
+        [
+          -156.55201578871151,
+          20.780271715876502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -156.55201578871151,
+    20.780271715876502,
+    -156.5002303659063,
+    20.828965660960456
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "platform": "maxar",
+    "gsd": 0.305,
+    "event": "Maui-Hawaii-fires-Aug-23",
+    "proj:code": "EPSG:32604",
+    "proj:shape": [
+      17408,
+      17408
+    ],
+    "proj:transform": [
+      0.30517578125,
+      0.0,
+      754843.75,
+      0.0,
+      -0.30517578125,
+      2305156.25,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2023-08-09T00:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "visual": {
+      "href": "https://maxar-opendata.s3.us-west-2.amazonaws.com/events/Maui-Hawaii-fires-Aug-23/ard/04/122000330033/2023-08-09/10300100EB592000-visual.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Visual (RGB)",
+      "eo:bands": [
+        {
+          "name": "red",
+          "common_name": "red",
+          "description": "Red band",
+          "center_wavelength": 0.65
+        },
+        {
+          "name": "green",
+          "common_name": "green",
+          "description": "Green band",
+          "center_wavelength": 0.56
+        },
+        {
+          "name": "blue",
+          "common_name": "blue",
+          "description": "Blue band",
+          "center_wavelength": 0.48
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

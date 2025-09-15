@@ -1,0 +1,165 @@
+{
+  "type": "Catalog",
+  "id": "shovi-georgia-landslide-8Aug23",
+  "stac_version": "1.0.0",
+  "description": "STAC Catalog for Maxar Open Data event 'shovi-georgia-landslide-8Aug23' containing 25 analysis ready data items.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Maxar Event Catalog: shovi-georgia-landslide-8Aug23"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10504100013A2F00-visual.json",
+      "type": "application/geo+json",
+      "title": "10504100013A2F00-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-2.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10504100013A2F00-visual-2.json",
+      "type": "application/geo+json",
+      "title": "10504100013A2F00-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10504100013A2F00-visual-3.json",
+      "type": "application/geo+json",
+      "title": "10504100013A2F00-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-3.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10504100013A2F00-visual-4.json",
+      "type": "application/geo+json",
+      "title": "10504100013A2F00-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-4.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-5.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-2.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-2"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-6.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-3.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-3"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-7.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-4.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-4"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-8.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-5.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-5"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-9.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-9"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-6.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-6"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-10.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-10"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-7.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-7"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-11.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-11"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-8.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-8"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001008931FF00-visual-12.json",
+      "type": "application/geo+json",
+      "title": "104001008931FF00-visual-12"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001000A76A200-visual-9.json",
+      "type": "application/geo+json",
+      "title": "105001000A76A200-visual-9"
+    }
+  ],
+  "title": "Maxar Event: shovi-georgia-landslide-8Aug23"
+}

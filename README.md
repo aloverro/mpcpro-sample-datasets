@@ -47,8 +47,13 @@ High‑level ingestion steps:
 
 | Dataset | Title | # Items | Key Assets | Catalog |
 |---------|-------|--------:|------------|--------:|
+| India-Floods-Oct-2023 | Maxar Open Data Program | 51 | visual (image/tiff; application=geotiff) | [catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/add-maxar-open-data/datasets/maxar/open-data-program/India-Floods-Oct-2023/catalog.json) |
 | Kalehe-DRC-Flooding-5-8-23 | Maxar Open Data Program | 24 | visual (image/tiff; application=geotiff) | [catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/add-maxar-open-data/datasets/maxar/open-data-program/Kalehe-DRC-Flooding-5-8-23/catalog.json) |
+| Maui-Hawaii-fires-Aug-23 | Maxar Open Data Program | 123 | visual (image/tiff; application=geotiff) | [catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/add-maxar-open-data/datasets/maxar/open-data-program/Maui-Hawaii-fires-Aug-23/catalog.json) |
 | NWT-Canada-Aug-23 | Maxar Open Data Program | 86 | visual (image/tiff; application=geotiff) | [catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/add-maxar-open-data/datasets/maxar/open-data-program/NWT-Canada-Aug-23/catalog.json) |
+| New-Zealand-Flooding23 | Maxar Open Data Program | 37 | visual (image/tiff; application=geotiff) | [catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/add-maxar-open-data/datasets/maxar/open-data-program/New-Zealand-Flooding23/catalog.json) |
+| Nigeria-Floods-Sept-2024 | Maxar Open Data Program | 18 | visual (image/tiff; application=geotiff) | [catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/add-maxar-open-data/datasets/maxar/open-data-program/Nigeria-Floods-Sept-2024/catalog.json) |
+| shovi-georgia-landslide-8Aug23 | Maxar Open Data Program | 25 | visual (image/tiff; application=geotiff) | [catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/add-maxar-open-data/datasets/maxar/open-data-program/shovi-georgia-landslide-8Aug23/catalog.json) |
 
 ### planetary_computer
 
