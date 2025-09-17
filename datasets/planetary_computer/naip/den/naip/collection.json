@@ -1,0 +1,68 @@
+{
+  "id": "naip",
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "title": "NAIP: National Agriculture Imagery Program (Sample Subsets)",
+  "description": "Subset NAIP imagery for sample MPC Pro GeoCatalog deployments. Includes multiple city and national park focus areas for quick evaluation.\nSample subset location: Denver International Airport (DEN).",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -124.784,
+          24.744,
+          -66.951,
+          49.346
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "keywords": [
+    "NAIP",
+    "Imagery",
+    "Sample",
+    "MPC Pro"
+  ],
+  "providers": [
+    {
+      "name": "USDA Farm Service Agency",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.fsa.usda.gov/"
+    },
+    {
+      "name": "Microsoft",
+      "roles": [
+        "host",
+        "processor"
+      ],
+      "url": "https://planetarycomputer.microsoft.com"
+    }
+  ],
+  "item_assets": {
+    "image": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "RGBIR COG tile"
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Thumbnail"
+    }
+  }
+}
