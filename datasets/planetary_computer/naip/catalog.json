@@ -1,0 +1,162 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "planetary_computer-naip",
+  "title": "naip",
+  "links": [
+    {
+      "rel": "self",
+      "href": "catalog.json"
+    },
+    {
+      "rel": "child",
+      "href": "arches/catalog.json",
+      "title": "arches"
+    },
+    {
+      "rel": "child",
+      "href": "atl/catalog.json",
+      "title": "atl"
+    },
+    {
+      "rel": "child",
+      "href": "chicago/catalog.json",
+      "title": "chicago"
+    },
+    {
+      "rel": "child",
+      "href": "clt/catalog.json",
+      "title": "clt"
+    },
+    {
+      "rel": "child",
+      "href": "den/catalog.json",
+      "title": "den"
+    },
+    {
+      "rel": "child",
+      "href": "denver/catalog.json",
+      "title": "denver"
+    },
+    {
+      "rel": "child",
+      "href": "dfw/catalog.json",
+      "title": "dfw"
+    },
+    {
+      "rel": "child",
+      "href": "everglades/catalog.json",
+      "title": "everglades"
+    },
+    {
+      "rel": "child",
+      "href": "glacier/catalog.json",
+      "title": "glacier"
+    },
+    {
+      "rel": "child",
+      "href": "grand_canyon/catalog.json",
+      "title": "grand_canyon"
+    },
+    {
+      "rel": "child",
+      "href": "great_smoky_mountains/catalog.json",
+      "title": "great_smoky_mountains"
+    },
+    {
+      "rel": "child",
+      "href": "houston/catalog.json",
+      "title": "houston"
+    },
+    {
+      "rel": "child",
+      "href": "las/catalog.json",
+      "title": "las"
+    },
+    {
+      "rel": "child",
+      "href": "lax/catalog.json",
+      "title": "lax"
+    },
+    {
+      "rel": "child",
+      "href": "los_angeles/catalog.json",
+      "title": "los_angeles"
+    },
+    {
+      "rel": "child",
+      "href": "manhattan/catalog.json",
+      "title": "manhattan"
+    },
+    {
+      "rel": "child",
+      "href": "mco/catalog.json",
+      "title": "mco"
+    },
+    {
+      "rel": "child",
+      "href": "miami/catalog.json",
+      "title": "miami"
+    },
+    {
+      "rel": "child",
+      "href": "mount_rainier/catalog.json",
+      "title": "mount_rainier"
+    },
+    {
+      "rel": "child",
+      "href": "mount_rushmore/catalog.json",
+      "title": "mount_rushmore"
+    },
+    {
+      "rel": "child",
+      "href": "ord/catalog.json",
+      "title": "ord"
+    },
+    {
+      "rel": "child",
+      "href": "phoenix/catalog.json",
+      "title": "phoenix"
+    },
+    {
+      "rel": "child",
+      "href": "phx/catalog.json",
+      "title": "phx"
+    },
+    {
+      "rel": "child",
+      "href": "san_francisco/catalog.json",
+      "title": "san_francisco"
+    },
+    {
+      "rel": "child",
+      "href": "sea/catalog.json",
+      "title": "sea"
+    },
+    {
+      "rel": "child",
+      "href": "seattle/catalog.json",
+      "title": "seattle"
+    },
+    {
+      "rel": "child",
+      "href": "statue_of_liberty/catalog.json",
+      "title": "statue_of_liberty"
+    },
+    {
+      "rel": "child",
+      "href": "washington_dc/catalog.json",
+      "title": "washington_dc"
+    },
+    {
+      "rel": "child",
+      "href": "yellowstone/catalog.json",
+      "title": "yellowstone"
+    },
+    {
+      "rel": "child",
+      "href": "yosemite/catalog.json",
+      "title": "yosemite"
+    }
+  ]
+}

@@ -43,7 +43,7 @@ High‑level ingestion steps:
 
 #### open-data-program
 
-[collection.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/collection.json) [mosaic_configuration.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/mosaic_configuration.json) [tile_settings_configuration.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/tile_settings_configuration.json) [render_configuration.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/render_configuration.json)
+[catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/catalog.json) [collection.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/collection.json) [mosaic_configuration.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/mosaic_configuration.json) [tile_settings_configuration.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/tile_settings_configuration.json) [render_configuration.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/maxar/open-data-program/config/render_configuration.json)
 
 | Dataset | Title | # Items | Key Assets | Catalog |
 |---------|-------|--------:|------------|--------:|
@@ -60,7 +60,7 @@ High‑level ingestion steps:
 
 #### naip
 
-[collection.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/collection.json) [mosaic_config.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/mosaic_config.json) [tile_settings_config.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/tile_settings_config.json) [render_config.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/render_config.json)
+[catalog.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/catalog.json) [collection.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/collection.json) [mosaic_config.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/mosaic_config.json) [tile_settings_config.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/tile_settings_config.json) [render_config.json](https://raw.githubusercontent.com/aloverro/mpcpro-sample-datasets/expand-maxar-datasets/datasets/planetary_computer/naip/config/render_config.json)
 
 | Dataset | Title | # Items | Key Assets | Catalog |
 |---------|-------|--------:|------------|--------:|
