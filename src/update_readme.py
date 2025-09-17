@@ -226,6 +226,20 @@ def update_readme(datasets_info, readme_path, owner, repo, branch):
             # config links
             config_files = grouped[src][coll].get('config_files', {})
             cfg_links = []
+            # If a collection-level catalog.json exists, add it first
+            coll_path = None
+            datasets_for_coll = grouped[src][coll].get('datasets', [])
+            if datasets_for_coll:
+                coll_path = datasets_for_coll[0].get('collection_path')
+            if coll_path:
+                coll_catalog_abs = os.path.join(coll_path, 'catalog.json')
+                repo_root = Path(__file__).parent.parent.resolve()
+                if os.path.isfile(coll_catalog_abs):
+                    rel = os.path.relpath(coll_catalog_abs, repo_root).replace('\\', '/')
+                    url = make_raw_url(owner, repo, branch, rel)
+                    cfg_links.append(f"[catalog.json]({url})")
+
+            # Then add the config file links (collection.json, mosaic, tile settings, render)
             for label in ['Collection Configuration', 'Mosaic Config', 'Tile Settings Config', 'Render Config']:
                 rel = config_files.get(label)
                 if not rel:

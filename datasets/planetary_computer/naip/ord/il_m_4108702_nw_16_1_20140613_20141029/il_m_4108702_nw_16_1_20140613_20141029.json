@@ -1,0 +1,152 @@
+{
+  "id": "il_m_4108702_nw_16_1_20140613_20141029",
+  "bbox": [
+    -87.87952,
+    41.93431,
+    -87.808047,
+    42.003191
+  ],
+  "type": "Feature",
+  "links": [
+    {
+      "rel": "collection",
+      "type": "application/json",
+      "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/naip"
+    },
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    },
+    {
+      "rel": "parent",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "NAIP: National Agriculture Imagery Program"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/il/2014/il_100cm_2014/41087/m_4108702_nw_16_1_20140613.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "RGBIR COG tile",
+      "eo:bands": [
+        {
+          "name": "Red",
+          "common_name": "red"
+        },
+        {
+          "name": "Green",
+          "common_name": "green"
+        },
+        {
+          "name": "Blue",
+          "common_name": "blue"
+        },
+        {
+          "name": "NIR",
+          "common_name": "nir",
+          "description": "near-infrared"
+        }
+      ]
+    },
+    "metadata": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/il/2014/il_fgdc_2014/41087/m_4108702_nw_16_1_20140613.txt",
+      "type": "text/plain",
+      "roles": [
+        "metadata"
+      ],
+      "title": "FGDC Metdata"
+    },
+    "thumbnail": {
+      "href": "https://naipeuwest.blob.core.windows.net/naip/v002/il/2014/il_100cm_2014/41087/m_4108702_nw_16_1_20140613.200.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "Thumbnail"
+    },
+    "tilejson": {
+      "title": "TileJSON with default rendering",
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=naip&item=il_m_4108702_nw_16_1_20140613_20141029&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "type": "application/json",
+      "roles": [
+        "tiles"
+      ]
+    },
+    "rendered_preview": {
+      "title": "Rendered preview",
+      "rel": "preview",
+      "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=naip&item=il_m_4108702_nw_16_1_20140613_20141029&assets=image&asset_bidx=image%7C1%2C2%2C3&format=png",
+      "roles": [
+        "overview"
+      ],
+      "type": "image/png"
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.808047,
+          41.934828
+        ],
+        [
+          -87.808911,
+          42.003191
+        ],
+        [
+          -87.87952,
+          42.002672
+        ],
+        [
+          -87.87858,
+          41.93431
+        ],
+        [
+          -87.808047,
+          41.934828
+        ]
+      ]
+    ]
+  },
+  "collection": "naip",
+  "properties": {
+    "gsd": 1.0,
+    "datetime": "2014-06-13T00:00:00Z",
+    "naip:year": "2014",
+    "proj:bbox": [
+      427163.0,
+      4642856.0,
+      433011.0,
+      4650447.0
+    ],
+    "proj:epsg": 26916,
+    "naip:state": "il",
+    "proj:shape": [
+      7591,
+      5848
+    ],
+    "proj:transform": [
+      1.0,
+      0.0,
+      427163.0,
+      0.0,
+      -1.0,
+      4650447.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0"
+}

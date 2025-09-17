@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "103001008D80DE00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -12.519096292320636,
+          7.985575361194091
+        ],
+        [
+          -12.519096292320636,
+          9.013951430360724
+        ],
+        [
+          -12.350050629635634,
+          9.013951430360724
+        ],
+        [
+          -12.350050629635634,
+          7.985575361194091
+        ],
+        [
+          -12.519096292320636,
+          7.985575361194091
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -12.519096292320636,
+    7.985575361194091,
+    -12.350050629635634,
+    9.013951430360724
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "platform": "maxar",
+    "event": "covid19-sierra-leone",
+    "proj:code": "EPSG:4326",
+    "proj:shape": [
+      206301,
+      33912
+    ],
+    "proj:transform": [
+      4.9848331766042455e-06,
+      0.0,
+      -12.519096292320636,
+      0.0,
+      -4.9848331766042455e-06,
+      9.013951430360724,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2019-03-12T00:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "visual": {
+      "href": "https://opendata.digitalglobe.com/events/covid19-sierra-leone/pre-event/2019-03-12/103001008D80DE00/103001008D80DE00.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Visual (RGB)",
+      "eo:bands": [
+        {
+          "name": "red",
+          "common_name": "red",
+          "description": "Red band",
+          "center_wavelength": 0.65
+        },
+        {
+          "name": "green",
+          "common_name": "green",
+          "description": "Green band",
+          "center_wavelength": 0.56
+        },
+        {
+          "name": "blue",
+          "common_name": "blue",
+          "description": "Blue band",
+          "center_wavelength": 0.48
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

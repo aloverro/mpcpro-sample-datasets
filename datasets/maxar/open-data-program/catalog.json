@@ -1,0 +1,52 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "maxar-open-data-program",
+  "title": "open-data-program",
+  "links": [
+    {
+      "rel": "self",
+      "href": "catalog.json"
+    },
+    {
+      "rel": "child",
+      "href": "India-Floods-Oct-2023/catalog.json",
+      "title": "India-Floods-Oct-2023"
+    },
+    {
+      "rel": "child",
+      "href": "Kalehe-DRC-Flooding-5-8-23/catalog.json",
+      "title": "Kalehe-DRC-Flooding-5-8-23"
+    },
+    {
+      "rel": "child",
+      "href": "Maui-Hawaii-fires-Aug-23/catalog.json",
+      "title": "Maui-Hawaii-fires-Aug-23"
+    },
+    {
+      "rel": "child",
+      "href": "NWT-Canada-Aug-23/catalog.json",
+      "title": "NWT-Canada-Aug-23"
+    },
+    {
+      "rel": "child",
+      "href": "New-Zealand-Flooding23/catalog.json",
+      "title": "New-Zealand-Flooding23"
+    },
+    {
+      "rel": "child",
+      "href": "Nigeria-Floods-Sept-2024/catalog.json",
+      "title": "Nigeria-Floods-Sept-2024"
+    },
+    {
+      "rel": "child",
+      "href": "covid19-sierra-leone/catalog.json",
+      "title": "covid19-sierra-leone"
+    },
+    {
+      "rel": "child",
+      "href": "shovi-georgia-landslide-8Aug23/catalog.json",
+      "title": "shovi-georgia-landslide-8Aug23"
+    }
+  ]
+}
