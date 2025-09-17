@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "103001008D230A00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -11.76066366425392,
+          7.972188970413622
+        ],
+        [
+          -11.76066366425392,
+          9.029909079991366
+        ],
+        [
+          -11.590441990897641,
+          9.029909079991366
+        ],
+        [
+          -11.590441990897641,
+          7.972188970413622
+        ],
+        [
+          -11.76066366425392,
+          7.972188970413622
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -11.76066366425392,
+    7.972188970413622,
+    -11.590441990897641,
+    9.029909079991366
+  ],
+  "properties": {
+    "license": "CC-BY-4.0",
+    "platform": "maxar",
+    "event": "covid19-sierra-leone",
+    "proj:code": "EPSG:4326",
+    "proj:shape": [
+      220496,
+      35485
+    ],
+    "proj:transform": [
+      4.797003617198243e-06,
+      0.0,
+      -11.76066366425392,
+      0.0,
+      -4.797003617198243e-06,
+      9.029909079991366,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2019-03-04T00:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "visual": {
+      "href": "https://opendata.digitalglobe.com/events/covid19-sierra-leone/pre-event/2019-03-04/103001008D230A00/103001008D230A00.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Visual (RGB)",
+      "eo:bands": [
+        {
+          "name": "red",
+          "common_name": "red",
+          "description": "Red band",
+          "center_wavelength": 0.65
+        },
+        {
+          "name": "green",
+          "common_name": "green",
+          "description": "Green band",
+          "center_wavelength": 0.56
+        },
+        {
+          "name": "blue",
+          "common_name": "blue",
+          "description": "Blue band",
+          "center_wavelength": 0.48
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

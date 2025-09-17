@@ -1,0 +1,207 @@
+{
+  "type": "Catalog",
+  "id": "covid19-sierra-leone",
+  "stac_version": "1.0.0",
+  "description": "STAC Catalog for Maxar Open Data event 'covid19-sierra-leone' containing 32 analysis ready data items.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Maxar Event Catalog: covid19-sierra-leone"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100A2A41000.json",
+      "type": "application/geo+json",
+      "title": "10300100A2A41000"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010058682000.json",
+      "type": "application/geo+json",
+      "title": "1040010058682000"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10400100580BDD00.json",
+      "type": "application/geo+json",
+      "title": "10400100580BDD00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100A2182D00.json",
+      "type": "application/geo+json",
+      "title": "10300100A2182D00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100A3197D00.json",
+      "type": "application/geo+json",
+      "title": "10300100A3197D00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010056756700.json",
+      "type": "application/geo+json",
+      "title": "1040010056756700"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010055B52400.json",
+      "type": "application/geo+json",
+      "title": "1040010055B52400"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100A106AA00.json",
+      "type": "application/geo+json",
+      "title": "10300100A106AA00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/103001009DC10B00.json",
+      "type": "application/geo+json",
+      "title": "103001009DC10B00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1050010016519000.json",
+      "type": "application/geo+json",
+      "title": "1050010016519000"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001004A96AF00.json",
+      "type": "application/geo+json",
+      "title": "104001004A96AF00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/103001008F84E900.json",
+      "type": "application/geo+json",
+      "title": "103001008F84E900"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/103001008D80DE00.json",
+      "type": "application/geo+json",
+      "title": "103001008D80DE00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/103001008D230A00.json",
+      "type": "application/geo+json",
+      "title": "103001008D230A00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/103001008B2D6900.json",
+      "type": "application/geo+json",
+      "title": "103001008B2D6900"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/103001008F9D6100.json",
+      "type": "application/geo+json",
+      "title": "103001008F9D6100"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/103001008DC94000.json",
+      "type": "application/geo+json",
+      "title": "103001008DC94000"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10400100472E6700.json",
+      "type": "application/geo+json",
+      "title": "10400100472E6700"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10500100133DEA00.json",
+      "type": "application/geo+json",
+      "title": "10500100133DEA00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1030010077BCE800.json",
+      "type": "application/geo+json",
+      "title": "1030010077BCE800"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1030010076840B00.json",
+      "type": "application/geo+json",
+      "title": "1030010076840B00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001001C94D700.json",
+      "type": "application/geo+json",
+      "title": "105001001C94D700"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010058A79200.json",
+      "type": "application/geo+json",
+      "title": "1040010058A79200"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001005A38CA00.json",
+      "type": "application/geo+json",
+      "title": "104001005A38CA00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/104001005922A400.json",
+      "type": "application/geo+json",
+      "title": "104001005922A400"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10400100596F3C00.json",
+      "type": "application/geo+json",
+      "title": "10400100596F3C00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010058CD3400.json",
+      "type": "application/geo+json",
+      "title": "1040010058CD3400"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10400100581C5200.json",
+      "type": "application/geo+json",
+      "title": "10400100581C5200"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/105001001C051A00.json",
+      "type": "application/geo+json",
+      "title": "105001001C051A00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100A630BD00.json",
+      "type": "application/geo+json",
+      "title": "10300100A630BD00"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/10300100A3CD8100.json",
+      "type": "application/geo+json",
+      "title": "10300100A3CD8100"
+    },
+    {
+      "rel": "item",
+      "href": "stac-items/1040010059C04600.json",
+      "type": "application/geo+json",
+      "title": "1040010059C04600"
+    }
+  ],
+  "title": "Maxar Event: covid19-sierra-leone"
+}
