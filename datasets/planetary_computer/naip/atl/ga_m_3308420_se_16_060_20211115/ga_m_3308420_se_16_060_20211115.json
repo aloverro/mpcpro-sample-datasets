@@ -1,4 +1,5 @@
 {
+  "$schema": "https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json",
   "id": "ga_m_3308420_se_16_060_20211115",
   "bbox": [
     -84.566501,

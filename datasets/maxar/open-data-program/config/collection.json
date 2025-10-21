@@ -1,4 +1,5 @@
 {
+  "$schema": "https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json",
   "id": "maxar-open-data-program",
   "type": "Collection",
   "title": "Maxar Open Data Program",

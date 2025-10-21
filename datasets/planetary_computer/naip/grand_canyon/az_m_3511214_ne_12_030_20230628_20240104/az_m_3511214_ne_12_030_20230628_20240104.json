@@ -1,4 +1,5 @@
 {
+  "$schema": "https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json",
   "id": "az_m_3511214_ne_12_030_20230628_20240104",
   "bbox": [
     -112.316897,

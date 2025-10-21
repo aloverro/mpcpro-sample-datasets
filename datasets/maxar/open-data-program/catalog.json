@@ -1,8 +1,10 @@
 {
+  "$schema": "https://schemas.stacspec.org/v1.0.0/catalog-spec/json-schema/catalog.json",
   "stac_version": "1.0.0",
   "type": "Catalog",
   "id": "maxar-open-data-program",
   "title": "open-data-program",
+  "description": "STAC Catalog for Maxar Open Data Program containing various disaster response datasets.",
   "links": [
     {
       "rel": "self",

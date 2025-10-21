@@ -1,8 +1,10 @@
 {
+  "$schema": "https://schemas.stacspec.org/v1.0.0/catalog-spec/json-schema/catalog.json",
   "stac_version": "1.0.0",
   "type": "Catalog",
   "id": "planetary_computer-naip",
   "title": "naip",
+  "description": "STAC Catalog for Planetary Computer NAIP sample datasets covering various cities and national parks.",
   "links": [
     {
       "rel": "self",
