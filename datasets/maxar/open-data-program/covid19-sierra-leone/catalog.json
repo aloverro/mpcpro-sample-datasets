@@ -1,4 +1,5 @@
 {
+  "$schema": "https://schemas.stacspec.org/v1.0.0/catalog-spec/json-schema/catalog.json",
   "type": "Catalog",
   "id": "covid19-sierra-leone",
   "stac_version": "1.0.0",
